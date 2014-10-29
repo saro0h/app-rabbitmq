@@ -1,0 +1,5 @@
+poledev_asynchronous:
+    resource: "@PoledevAsynchronousBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
