@@ -1,20 +1,16 @@
-SensioLabs PoleDev Katas
+Playground with RabbitMQ
 ========================
 
-Here is some exercises around the Symfony2 framework! Once a day, a new Kata to train yourself :)
+You need to install RabbitMQ: http://www.rabbitmq.com/download.html.
 
-Navigate among branches of the repository to find hapiness.
+To install the project:
 
-Basically, it's about following each step described in the README file, then repeat it until you
-can code the exercise really quickly. It's about getting reflexes and learn some pieces of knowledge,
-exercise by exercise.
+- Install composer: https://getcomposer.org/download/
+- run the command: ``composer.phar install``
 
-Here is a Symfony Standard edition (2.4) to begin with.
 
-Enjoy!
+### What does this appllication ?
 
-- Kata 1: (Form) DataTransformer https://github.com/poledev/Katas/tree/kata-data-transformers
-- Kata 2: (EventDispatcher) Event Listener / Event Dispatcher https://github.com/poledev/Katas/tree/kata-event-listener
-- Kata 3: (Form) Inherit data / Virtual Form https://github.com/poledev/Katas/tree/kata-inherit-data
-- Kata 4: (Form) File Upload https://github.com/poledev/Katas/tree/kata-upload-file
-- Kata 5: (Translation) Manage translations https://github.com/poledev/Katas/tree/kata-translation
+Basically, this application sends email, through a queue, and a consumer takes the message to actually send it with SwiftMailer.
+
+Feel free to play with it! 
